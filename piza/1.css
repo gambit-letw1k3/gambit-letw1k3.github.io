@@ -1,0 +1,136 @@
+img {
+    width: 100%;
+}
+
+.logo-img {
+    width: 150px
+}
+
+.logo-text>p {
+    font-size: 2em;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7CB3C5;
+}
+
+p {
+    color: gray;
+    text-shadow: 2px 3px 5px black;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding: 10px;
+    background-color: #9de6ff;
+    margin: 7px;
+
+}
+
+.item-1 {
+    background-image: url(img/pizza1.jpg);
+}
+
+.item-2 {
+    background-image: url(img/pizza2.jpg);
+}
+
+.item-3 {
+    background-image: url(img/pizza3.jpg);
+}
+
+.item-4 {
+    background-image: url(img/pizza4.jpg);
+}
+
+.item-5 {
+    background-image: url(img/pizza5.jpg);
+}
+
+.item-6 {
+    background-image: url(img/pizza6.jpg);
+}
+
+.item-7 {
+    background-image: url(img/pizza7.jpg);
+}
+
+.item-8 {
+    background-image: url(img/pizza8.jpg);
+}
+
+.item-9 {
+    background-image: url(img/pizza9.jpg);
+}
+
+.pizza {
+    width: 165px;
+    height: 128px;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.shaurma-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    background-color: gray;
+    padding: 20px;
+    width: 200px;
+    flex-grow: 2;
+}
+
+main {
+    flex-grow: 10;
+    width: 400px;
+    padding: 20px;
+    background-color: gray;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle{background-color:black ;
+color: gray;
+border-radius: 50%;
+padding: 15px;
+margin: 15%;}
+.row{display: flex; align-items: center;}
+.big-img, .big-text{width: 400px;
+flex-grow: 1;padding: 15px 30px;}
+.our-principles{background-color: rgb(245, 245, 245);}
+.big-img>img{border-radius: 15px;}
+.option{background-image: url(img/1.jpg);
+height: 400px;
+background-size: cover;background-position: 50% 50%; display: flex; justify-content: space-between; }
+.opt1,.opt2,.opt3,.opt4 {background-color: gray;
+color: aliceblue; padding: 20px; margin: 20px;}
+.opt1{align-self: center;}
+.opt2{align-self: flex-start;}
+.opt3{align-self: flex-end;}
+.opt4{align-self: center;}
+footer{background-color: black;
+color: darkgrey;
+padding: 20px;}
+.socio{font-size: 2em;
+text-decoration: none;
+color: darkgrey;}
+.face:hover{color: blue;}
+.inst:hover{color: purple;}
+.visa:hover{color: rgb(18, 115, 184);}
+.tik:hover{color:pink}
+.pay:hover{color: rgb(0, 234, 255);}
